@@ -18,7 +18,7 @@
 
 Клонируйте репозиторий:
 ```
-git clone https://github.com/driveGosling/react-task/tree/main
+git clone git@github.com:driveGosling/react-task.git
 ```
 
 Перейдите в папку проекта:
