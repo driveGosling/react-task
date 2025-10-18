@@ -69,7 +69,6 @@ const VehicleList: React.FC<VehicleListProps> = ({
                 Год {getSortIcon('year')}
               </button>
             </th>
-            <th>Цвет</th>
             <th>
               <button
                 onClick={() => handleSort('price')}
@@ -87,13 +86,6 @@ const VehicleList: React.FC<VehicleListProps> = ({
               <td>{vehicle.name}</td>
               <td>{vehicle.model}</td>
               <td>{vehicle.year}</td>
-              <td>
-                <span
-                  className="color-badge"
-                  style={{ backgroundColor: vehicle.color }}
-                />
-                {vehicle.color}
-              </td>
               <td>${vehicle.price.toLocaleString()}</td>
               <td>
                 <button
