@@ -1,0 +1,70 @@
+.vehicle-list {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th,
+td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+th {
+  background-color: #f8f9fa;
+  font-weight: 600;
+}
+
+.sort-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.sort-button:hover {
+  color: #3498db;
+}
+
+.btn-edit {
+  background-color: #f39c12;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.btn-edit:hover {
+  background-color: #e67e22;
+}
+
+.btn-delete {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.btn-delete:hover {
+  background-color: #c0392b;
+}
+
+.color-badge {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border-radius: 3px;
+  margin-right: 8px;
+  vertical-align: middle;
+  border: 1px solid #ddd;
+}
